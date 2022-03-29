@@ -12,6 +12,66 @@
     
 }
 
+.button-link {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    background-color: #ffffff75;
+    border-radius: 105px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transition: box-shadow 1s ease, margin-top 1s ease;
+  }
+  
+  .button-link:hover {
+    transition: box-shadow 0.5s ease, margin-top 0.5s ease; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+  }
+  
+  .heart {
+    
+    fill: #ff0089;
+    background: none;
+    position: relative;
+    top: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .telefon{
+    position: relative;
+    top:-37px; 
+    color: white;
+  }
+
+  .holeheart{
+      text-decoration: none;
+  }
+
+  .programari{
+      font-size: 1.5em;
+  }
+p{
+    margin: 15px;
+}
+
+.lista{
+    text-decoration: none;
+    padding: 15px 20px 20px 20px !important;
+    background-color: #ffffffa6;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    border-radius: 40px;
+}
+
+.listalink{
+    text-decoration: none;
+    color: #b55eb2;
+}
+
 @media only screen and (max-width: 600px) {
     .homepageimg{
         height:300px;
