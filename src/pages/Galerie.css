@@ -1,0 +1,18 @@
+.titlugalerie{
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.galerielinks{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    gap:35px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.galeriea{
+    text-decoration: none;
+    font-size: 1.3em ;
+}
