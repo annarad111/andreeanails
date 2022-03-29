@@ -6,7 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(180deg, rgba(255,0,0,0), rgba(218, 165, 204, 0.26), rgba(243, 164, 217, 0.876));
+  background-image: linear-gradient(180deg, rgba(255,0,0,0), rgba(212, 163, 231, 0.26), rgba(243, 164, 217, 0.876));
   background-repeat: no-repeat;
 }
 

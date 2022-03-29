@@ -7,9 +7,28 @@
 
 .homepage{
     margin-top: 100px;
+    margin-bottom: 100px;
+    overflow: hidden;
     
 }
 
-.background{
-    
+@media only screen and (max-width: 600px) {
+    .homepageimg{
+        height:300px;
+        width: 300px;
+        border-radius: 300px;
+        margin:20px;
+    }
+
+    .homepage{
+        margin-top: 30px;
+        margin-bottom: 60px;
+        overflow-x: hidden;
+        
+    }
+
+    .animate__animated.animate__fadeIn {
+        --animate-duration: 3s;
+      }
 }
+

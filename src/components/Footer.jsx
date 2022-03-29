@@ -1,6 +1,7 @@
 import { Container } from "@material-ui/core";
 import { Grid } from "@material-ui/core";
 import { Box } from "@material-ui/core";
+import { pink } from "@material-ui/core/colors";
 import { Typography } from "@mui/material";
 import { Link } from "react-router-dom";
 import './Footer.css';
@@ -70,7 +71,7 @@ export default function Footer(){
                         </Grid>
 
                     </Grid>
-                    <Box textAlign="center" pt={{ xs:5, sm:10}} pb={{xs:5 , sm:0}}>
+                    <Box textAlign="center" pt={{ xs:5, sm:10}} pb={{xs:5 , sm:0}} className="mark">
                         Andreea Nails &reg; {new Date().getFullYear()}
                     </Box>
                 </Container>

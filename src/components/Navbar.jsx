@@ -1,8 +1,10 @@
 
 import { AppBar, Badge, IconButton, List, ListItem, Switch, Toolbar, Typography, Box } from "@mui/material";
+import React, { useState } from 'react';
 import { Link, NavLink } from "react-router-dom";
 import '../components/Navbar.css'
 import 'animate.css';
+import Hamburger from 'hamburger-react';
 
 const midLinks=[
     {title: 'servicii', path: '/servicii'},
@@ -13,13 +15,18 @@ const midLinks=[
 
 
 export default function Navbar(){
+
+    
+
     return(
         <>
             <AppBar position="static" sx={{mb: 4}}>
             <Toolbar sx={{display: 'flex', justifyContent:'space-between', alignItems: 'center'}}>
 
+
+
             <Box display='flex' alignItems='center'>
-                <Typography variant="h6" className="logo" component={NavLink} to='/' exact
+                <Typography variant="h6" className="animate__animated animate__backInDown logo" component={NavLink} to='/' exact
                  sx={{color: 'black', textDecoration:'none',fontFamily: 'Raleway',fontWeight: 700}}>
                    Andreea Nails
                 </Typography>

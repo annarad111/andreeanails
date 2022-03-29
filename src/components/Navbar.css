@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 
 
+
 .css-198nu5u-MuiToolbar-root{
     display: flex;
     align-items: center;
@@ -18,7 +19,7 @@
 }
 
 .logo{
-    font-size: 2em !important;
+    font-size: 2.5em !important;
     font-family: 'Comfortaa', cursive !important;
     margin-bottom: 20px !important;
 }
@@ -68,4 +69,43 @@
 
 .css-198nu5u-MuiToolbar-root{
     overflow: hidden;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .css-iyjaod-MuiList-root{
+    gap: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    }
+
+
+    .css-1fxyfd-MuiTypography-root{
+        font-size: 1.7em !important;
+        text-align: left;
+    }
+
+    .none{
+        display: none;
+    }
+
+    .links{
+        padding:5px !important;
+        margin: 0;
+    }
+
+    .css-iyjaod-MuiList-root{
+        margin-top: 10px !important;
+    }
+
+
 }
