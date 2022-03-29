@@ -22,6 +22,8 @@
     margin-right: auto;
     display: block;
     transition: box-shadow 1s ease, margin-top 1s ease;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
   
   .button-link:hover {
