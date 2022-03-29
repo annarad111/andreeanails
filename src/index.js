@@ -10,9 +10,7 @@ export const history = createBrowserHistory();
 ReactDOM.render(
   <React.StrictMode>
     <Router history={history}>
-      <StoreProvider>
       <App />
-      </StoreProvider>
     </Router>
     
   </React.StrictMode>,

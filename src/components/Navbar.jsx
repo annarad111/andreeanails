@@ -2,6 +2,7 @@
 import { AppBar, Badge, IconButton, List, ListItem, Switch, Toolbar, Typography, Box } from "@mui/material";
 import { Link, NavLink } from "react-router-dom";
 import '../components/Navbar.css'
+import 'animate.css';
 
 const midLinks=[
     {title: 'servicii', path: '/servicii'},
@@ -18,7 +19,7 @@ export default function Navbar(){
             <Toolbar sx={{display: 'flex', justifyContent:'space-between', alignItems: 'center'}}>
 
             <Box display='flex' alignItems='center'>
-                <Typography variant="h6" component={NavLink} to='/' exact
+                <Typography variant="h6" className="logo" component={NavLink} to='/' exact
                  sx={{color: 'black', textDecoration:'none',fontFamily: 'Raleway',fontWeight: 700}}>
                    Andreea Nails
                 </Typography>
@@ -27,7 +28,7 @@ export default function Navbar(){
 
                 <List sx={{display:'flex'}} className="nav">
                     {midLinks.map(({title, path})=> (
-                        <ListItem className="links border"
+                        <ListItem className="links"
                         component={NavLink}
                         to={path}
                         key={path}
