@@ -16,7 +16,7 @@ export default function Homepage(){
                     
                     <img src={nails2} className="animate__animated animate__fadeIn homepageimg"></img>
                         <div className='suna'>
-                            <p className='programari'><PhoneIphoneOutlinedIcon/> Pentru programări :</p>
+                            <p className='programari'> Pentru programări :</p>
 
                             <a href="tel:+40762727555" className='holeheart'>
                                 <span class="button-link">

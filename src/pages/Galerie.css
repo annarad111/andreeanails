@@ -15,4 +15,15 @@
 .galeriea{
     text-decoration: none;
     font-size: 1.3em ;
+    padding: 20px;
+    background-color: rgb(255 255 255 / 62%);
+    width:200px;
+    margin:auto;
+    border-radius: 40px;
+    color: #e744ad;
+}
+
+.css-i4bv87-MuiSvgIcon-root{
+    height:80px !important;
+    width: 150px !important;
 }
