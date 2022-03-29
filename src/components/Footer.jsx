@@ -18,7 +18,7 @@ export default function Footer(){
                 <Container maxWidth='lg'>
                     <Grid container spacing={7} >
                         <Grid item xs={12} sm={4} spacing={4}>
-                            <Box borderBottom={1}><Typography variant='h5' className="footertitle">Need Help</Typography></Box>
+                            <Box borderBottom={1}><Typography variant='h5' className="footertitle">Detalii</Typography></Box>
                             <Box sx={{ p: 1}}>
                                 <Link className="footerlinks" to='/' color='inherit'>
                                     Home
@@ -26,30 +26,30 @@ export default function Footer(){
                             </Box>
                             <Box sx={{ p: 1}}>
                                 <Link className="footerlinks" to='/contact' color='inherit'>
-                                    Contact us
+                                    Contact
                                 </Link>
                             </Box>
                             <Box sx={{ p: 1}}>
-                                <Link className="footerlinks" to='/about' color='inherit'>
-                                    About us
+                                <Link className="footerlinks" to='/despre' color='inherit'>
+                                    Despre
                                 </Link>
                             </Box>
                         </Grid>
                         <Grid item xs={12} sm={4}>
-                            <Box borderBottom={1}><Typography variant='h5' className="footertitle">Products</Typography></Box>
+                            <Box borderBottom={1}><Typography variant='h5' className="footertitle">Servicii</Typography></Box>
                             <Box sx={{ p: 1}}>
-                                <Link className="footerlinks" to='/products' color='inherit'>
-                                    Product page
+                                <Link className="footerlinks" to='/servicii' color='inherit'>
+                                    Constructie gel
                                 </Link>
                             </Box>
                             <Box sx={{ p: 1}}>
-                                <Link className="footerlinks" to='/basket' color='inherit'>
-                                    Cart
+                                <Link className="footerlinks" to='/servicii' color='inherit'>
+                                    Intretinere gel
                                 </Link>
                             </Box>
                             <Box sx={{ p: 1}}>
-                                <Link className="footerlinks" to='/checkout' color='inherit'>
-                                    Checkout
+                                <Link className="footerlinks" to='/servicii' color='inherit'>
+                                    Manichiura semipermanenta
                                 </Link>
                             </Box>
                         </Grid>
