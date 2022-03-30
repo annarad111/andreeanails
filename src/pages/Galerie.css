@@ -4,13 +4,14 @@
 }
 
 .galerielinks{
-    display:flex;
+    display: flex;
     justify-content: center;
-    flex-direction: column;
-    gap:35px;
+    flex-direction: row;
+    gap: 0px;
     margin-top: 50px;
     margin-bottom: 70px;
 }
+
 
 .galeriea{
     text-decoration: none;
@@ -28,3 +29,13 @@
     width: 150px !important;
 }
 
+@media only screen and (max-width: 600px){
+    .galerielinks{
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        gap:35px;
+        margin-top: 50px;
+        margin-bottom: 70px;
+    }
+}

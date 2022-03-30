@@ -1,0 +1,59 @@
+.servicii{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin: 200px;
+   
+}
+
+.serviciitext{
+    position: relative;
+}
+
+.imgservicii{
+    padding:40px;
+    height: 700px;
+    position: absolute;
+    overflow: hidden;
+    opacity: 0.6;
+    border-radius: 100px;
+}
+
+.divservicii{
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.over{
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 600px){
+    .servicii{
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        margin: 50px;
+        margin-bottom: 100px;
+       
+    }
+
+    .imgservicii{
+    overflow: hidden !important;
+    padding: 40px;
+    height: 700px;
+    position: absolute;
+    overflow: hidden;
+    opacity: 0.7;
+    border-radius: 100px;
+    width: 295px;
+    margin: 0;
+    }
+    
+}

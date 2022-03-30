@@ -20,6 +20,9 @@ function App() {
         <Route exact path='/galerie' component={Galerie}></Route>
         </Switch>
         <Footer/>
+        <a href="https://wa.me/+40762727555" class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+        </a>
     </div>
   );
 }
