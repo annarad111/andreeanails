@@ -39,24 +39,24 @@ export default function Footer(){
                             <Box borderBottom={1}><Typography variant='h5' className="footertitle">Servicii</Typography></Box>
                             <Box sx={{ p: 1}}>
                                 <Link className="footerlinks" to='/servicii' color='inherit'>
-                                    Constructie gel
+                                    Construcție gel
                                 </Link>
                             </Box>
                             <Box sx={{ p: 1}}>
                                 <Link className="footerlinks" to='/servicii' color='inherit'>
-                                    Intretinere gel
+                                Întreținere gel
                                 </Link>
                             </Box>
                             <Box sx={{ p: 1}}>
                                 <Link className="footerlinks" to='/servicii' color='inherit'>
-                                    Manichiura semipermanenta
+                                    Manichiură semipermanentă
                                 </Link>
                             </Box>
                         </Grid>
                         <Grid item xs={12} sm={4}>
                             <Box borderBottom={1}><Typography variant='h5' className="footertitle">Contact</Typography></Box>
                             <Box sx={{ p: 1}}>
-                                <a href="tel:+40762727555" className="footerlinks">Phone</a>
+                                <a href="tel:+40762727555" className="footerlinks">Telefon</a>
                             </Box>
                             <Box sx={{ p: 1}}>
                                 <a href="https://wa.me/+40762727555" className="footerlinks" target="_blank">

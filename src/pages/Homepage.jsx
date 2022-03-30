@@ -1,9 +1,9 @@
 import nails1 from '../images/nails1.jpg';
 import nails2 from '../images/nails2.jpg';
 import nails3 from '../images/nails5.jpg';
+import { Link } from "react-router-dom";
 import '../pages/Homepage.css';
 import 'animate.css';
-import PhoneIphoneOutlinedIcon from '@mui/icons-material/PhoneIphoneOutlined';
 
 export default function Homepage(){
 
@@ -12,7 +12,7 @@ export default function Homepage(){
     
                 <div className='homepage'>
                     <img src={nails1} className="animate__animated animate__backInLeft homepageimg"></img>
-                    <p>Servicii full de manichiura,pedichiura,constructie cu gel, intretinere gel, modelul este inclus in pret! 💅🏻</p>
+                    <p>Servicii full de manichiură,pedichiură,construcție cu gel, întreținere gel, modelul este inclus în preț! 💅🏻</p>
                     
                     <img src={nails2} className="animate__animated animate__fadeIn homepageimg"></img>
                         <div className='suna'>
@@ -29,11 +29,13 @@ export default function Homepage(){
                                 
                                 </a>
                         </div>
-                    <p>Detaliile întotdeauna fac diferența! Totul este in mâinile tale,🤲 ai grija de ele! 💅🏻</p>
+                    <p>Detaliile întotdeauna fac diferența! Totul este în mâinile tale,🤲 ai grijă de ele! 💅🏻</p>
                     
                     <img src={nails3} className="animate__animated animate__backInRight homepageimg"></img>
                     <div className='lista'>
-                    <a href='/servicii' className='listalink'>Acceseaza lista de servicii</a>
+                    <Link className='listalink' to='/servicii' color='inherit'>
+                    Acceseaza lista de servicii
+                    </Link>
                     </div>
         
         
