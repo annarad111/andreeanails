@@ -1,0 +1,28 @@
+.contactdetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: auto;
+    background-color: #ffffffad;
+    width: 300px;
+    padding: 50px;
+    border-radius: 100px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.contactlinks{
+    text-decoration: none;
+    color: black;
+    font-size: 1.7em;
+}
+
+.contactlinks:hover{
+    color: pink;
+}
+
+.css-i4bv87-MuiSvgIcon-root{
+    color: #d532d085;
+}
