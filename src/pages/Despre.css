@@ -1,0 +1,14 @@
+
+.despreimg{
+    width: 600px;
+    border-radius: 300px;
+    margin-top: 50px;
+}
+
+
+@media only screen and (max-width: 600px){
+.despreimg{
+    width: 300px;
+    border-radius: 300px;
+}
+}
