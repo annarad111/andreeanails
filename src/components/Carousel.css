@@ -1,5 +1,16 @@
-.itemimg{
-    width:400px;
-    height:500px;
 
+.itemimg{
+    width:700px;
+    height:800px;
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .itemimg{
+        width:400px;
+        height:500px;
+    
+    }
 }
