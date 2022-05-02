@@ -9,6 +9,9 @@
   <p>:blue_heart: The about page contains pictures and a story about the client.</p>
   <p>:purple_heart: The contact page contains google maps with the location and the contact details of the client.</p>
   <p>:white_heart: The gallery page contains a slider with images that the client has made.</p>
+    <p align="center">
+    <a href="https://andreea-nails.com/" target="_blank" rel="noreferrer">You can check it out here !</a>
+    </p>
   </div>
   
   
