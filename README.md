@@ -1,3 +1,44 @@
+<h1 align="center"> ⚡ Andreea Nails  ⚡</h1>
+<h3 align="center">Project Description: <h3/>
+  
+  <div>
+  <p>:heart: It is a web application made for a client working in the beauty industry and it is mobile responsive.</p>
+  <p>:orange_heart: It has 5 pages: homepage, services, about, contact, gallery </p>
+  <p>:yellow_heart:The home page contains images and text, there is a wapp floating icon for contacting via wapp, call buttons. </p>
+  <p>:green_heart: The services page contains all the services the client has to offer with prices and time of execution. </p>
+  <p>:blue_heart: The about page contains pictures and a story about the client.</p>
+  <p>:purple_heart: The contact page contains google maps with the location and the contact details of the client.</p>
+  <p>:white_heart: The gallery page contains a slider with images that the client has made.</p>
+  </div>
+  
+  
+  <div align="center">
+    <h3 align:"center">Technologies used:</h3>
+    <p>Frontend:</p>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a>
+  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"></a>
+  <p>Backend:</p>
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> </a>
+  <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a>
+  
+  </div>
+<div align="center" style="gap: 100px;">
+  <p>:point_down: Pictures below: </p>
+  <img src="https://user-images.githubusercontent.com/86423309/166217529-c7a8d462-013d-4f39-a8f4-fd423a1911ba.png" width="750">
+  <img src="https://user-images.githubusercontent.com/86423309/166217627-5bedfb36-4a12-4c27-8617-50bc43d2203a.png" width="750">
+  <img src="https://user-images.githubusercontent.com/86423309/166217728-e13039ea-92e2-4b00-b8ae-0963e7a2020a.png" width="750">
+  <img src="https://user-images.githubusercontent.com/86423309/166217797-57ce2ee0-eff4-492b-b112-96f20b77c7cc.png" width="750">
+  <img src="https://user-images.githubusercontent.com/86423309/166217896-e2b0ccf6-66ef-4b9c-8904-40cadf04a330.png" width="750">
+  <img src="https://user-images.githubusercontent.com/86423309/166218048-7307c707-7657-4c85-a575-e9374ec410e7.png" width="750">
+</div>
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
